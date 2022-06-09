@@ -1,0 +1,132 @@
+#tapis .tile_shape {
+  position:absolute;
+  width :103px;
+  height:152px;
+  background-image:url(media/mahjong-tiles_faces.png), url(media/tile_back.png);
+  border-bottom: 14px solid transparent;
+  border-right: 16px solid transparent;
+  transition:top ease 0.4s, left ease 0.4s, margin ease 0.4s;
+}
+
+.tile_shape:hover {
+  background-image:url(media/mahjong-tiles_faces.png), url(media/tile_back_5.png) !important;
+}
+
+#help {
+  font-family:'century gothic', arial sans-serif;
+  font-size:26pt;
+  font-weight:bold;
+  color:gold;
+  cursor:default;
+}
+
+.tile_face {  background-image:url(media/mahjong-tiles_75.png); }
+.tile_deck {
+  background-image:url(media/mahjong-tiles_75.png) -311px -483px;
+  width :104px;
+  height:152px;
+}
+
+.r1 { background-position :    0   0, 0 0; background-clip:content-box, border-box; }
+.r2 { background-position : -104px 0, 0 0; background-clip:content-box, border-box; }
+.r3 { background-position : -208px 0, 0 0; background-clip:content-box, border-box; }
+.r4 { background-position : -311px 0, 0 0; background-clip:content-box, border-box; }
+.r5 { background-position : -414px 0, 0 0; background-clip:content-box, border-box; }
+.r6 { background-position : -517px 0, 0 0; background-clip:content-box, border-box; }
+.r7 { background-position : -620px 0, 0 0; background-clip:content-box, border-box; }
+.r8 { background-position : -723px 0, 0 0; background-clip:content-box, border-box; }
+.r9 { background-position : -826px 0, 0 0; background-clip:content-box, border-box; }
+
+.c1 { background-position :    0   -161px, 0 0; background-clip:content-box, border-box; }
+.c2 { background-position : -104px -161px, 0 0; background-clip:content-box, border-box; }
+.c3 { background-position : -208px -161px, 0 0; background-clip:content-box, border-box; }
+.c4 { background-position : -311px -161px, 0 0; background-clip:content-box, border-box; }
+.c5 { background-position : -414px -161px, 0 0; background-clip:content-box, border-box; }
+.c6 { background-position : -517px -161px, 0 0; background-clip:content-box, border-box; }
+.c7 { background-position : -620px -161px, 0 0; background-clip:content-box, border-box; }
+.c8 { background-position : -723px -161px, 0 0; background-clip:content-box, border-box; }
+.c9 { background-position : -826px -161px, 0 0; background-clip:content-box, border-box; }
+
+.b1 { background-position :    0   -322px, 0 0; background-clip:content-box, border-box; }
+.b2 { background-position : -104px -322px, 0 0; background-clip:content-box, border-box; }
+.b3 { background-position : -208px -322px, 0 0; background-clip:content-box, border-box; }
+.b4 { background-position : -311px -322px, 0 0; background-clip:content-box, border-box; }
+.b5 { background-position : -414px -322px, 0 0; background-clip:content-box, border-box; }
+.b6 { background-position : -517px -322px, 0 0; background-clip:content-box, border-box; }
+.b7 { background-position : -620px -322px, 0 0; background-clip:content-box, border-box; }
+.b8 { background-position : -723px -322px, 0 0; background-clip:content-box, border-box; }
+.b9 { background-position : -826px -322px, 0 0; background-clip:content-box, border-box; }
+
+.wn { background-position :    0   -482px, 0 0; background-clip:content-box, border-box; }
+.ws { background-position : -104px -482px, 0 0; background-clip:content-box, border-box; }
+.ww { background-position :    0   -633px, 0 0; background-clip:content-box, border-box; }
+.we { background-position : -104px -633px, 0 0; background-clip:content-box, border-box; }
+
+.d1 { background-position : -208px -482px, 0 0; background-clip:content-box, border-box; }
+.d4 { background-position : -311px -482px, 0 0; background-clip:content-box, border-box; }
+.d2 { background-position : -208px -633px, 0 0; background-clip:content-box, border-box; }
+.d3 { background-position : -311px -633px, 0 0; background-clip:content-box, border-box; }
+
+.f1 { background-position : -723px -482px, 0 0; background-clip:content-box, border-box; }
+.f2 { background-position : -827px -482px, 0 0; background-clip:content-box, border-box; }
+.f3 { background-position : -723px -633px, 0 0; background-clip:content-box, border-box; }
+.f4 { background-position : -827px -633px, 0 0; background-clip:content-box, border-box; }
+
+.s1 { background-position : -517px -482px, 0 0; background-clip:content-box, border-box; }
+.s2 { background-position : -620px -482px, 0 0; background-clip:content-box, border-box; }
+.s3 { background-position : -517px -633px, 0 0; background-clip:content-box, border-box; }
+.s4 { background-position : -620px -633px, 0 0; background-clip:content-box, border-box; }
+
+
+.tile_lvl1 {  background-image:url(media/mahjong-tiles_faces.png), url(media/tile_back.png)   !important; }
+.tile_lvl2 {  background-image:url(media/mahjong-tiles_faces.png), url(media/tile_back_2.png) !important; }
+.tile_lvl3 {  background-image:url(media/mahjong-tiles_faces.png), url(media/tile_back_3.png) !important; }
+.tile_lvl4 {  background-image:url(media/mahjong-tiles_faces.png), url(media/tile_back_4.png) !important; }
+.tile_lvl5 {  background-image:url(media/mahjong-tiles_faces.png), url(media/tile_back_5.png) !important; }
+
+
+.highlighted {
+  border-radius: 10px;
+  box-shadow:0 0 20px 10px #ffa;
+}
+
+.raised {
+  border-radius:20px;
+  background-image:url(media/mahjong-tiles_faces.png), url(media/tile_back_2.png);
+  box-shadow:25px 25px 5px rgba(0,0,0,0.8);
+  background-color:rgba(0,0,0,0.3);
+  margin-left:-15px;
+  margin-top:-15px; 
+}
+
+
+#lvl {
+  position:fixed;
+  top:650px;
+  left:5px;
+  padding:0;
+  margin:0;
+}
+
+#lvl li {
+  padding:0;
+  margin:0;
+  width:150px;
+  text-align:center;
+  list-style-type:none;
+  font-family:'century gothic',arial,sans-serif;
+  color:gold;
+  background:none;
+  font-size:14pt;
+}
+
+#lvl li a {
+  text-decoration:none;
+  display:block;
+  width:100%;
+  padding:4px;
+  margin:4px;
+  border-radius:12px;
+  background:rgba(255,255,255,0.2);
+  color:gold;
+}

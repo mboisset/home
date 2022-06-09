@@ -1,0 +1,32 @@
+{
+  "short_name": "Patiences",
+  "name": "Patiences",  
+  "Description": "Jeux de patiences et réussites",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/cartes_128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/cartes_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/cartes_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#2196F3",  
+  "start_url": "/?launcher=true",
+  "display": "standalone",
+  "scope":"/",
+  "orientation": "landscape"
+}

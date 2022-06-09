@@ -1,0 +1,59 @@
+#tapis #hand1       { position:absolute; left:  50px; top:0; }
+#tapis #hand2       { position:absolute; left: 230px; top:0; }
+#tapis #hand3       { position:absolute; left: 410px; top:0; }
+#tapis #hand4       { position:absolute; left: 590px; top:0; }
+#tapis #foundation1 { position:absolute; left: 770px; top:0; }
+#tapis #foundation2 { position:absolute; left: 950px; top:0; }
+#tapis #foundation3 { position:absolute; left:1130px; top:0; }
+#tapis #foundation4 { position:absolute; left:1310px; top:0; }
+#tapis #tableau1    { position:absolute; left:  50px; top:250px; }
+#tapis #tableau2    { position:absolute; left: 230px; top:250px; }
+#tapis #tableau3    { position:absolute; left: 410px; top:250px; }
+#tapis #tableau4    { position:absolute; left: 590px; top:250px; }
+#tapis #tableau5    { position:absolute; left: 770px; top:250px; }
+#tapis #tableau6    { position:absolute; left: 950px; top:250px; }
+#tapis #tableau7    { position:absolute; left:1130px; top:250px; }
+#tapis #tableau8    { position:absolute; left:1310px; top:250px; }
+
+#zoom_zone #h1, #zoom_zone #h2, #zoom_zone #h3, #zoom_zone #h4 {
+  position:absolute;
+  left:50px;
+  top:0;
+  width:160px;
+  height:236px;
+  z-index:999999;
+}
+
+#zoom_zone #h2 { left:230px; }
+#zoom_zone #h3 { left:410px; }
+#zoom_zone #h4 { left:590px; }
+
+#zoom_zone #f1, #zoom_zone #f2, #zoom_zone #f3, #zoom_zone #f4 {
+  position:absolute;
+  left:770px;
+  top:0;
+  width:160px;
+  height:236px;
+  z-index:999999;
+}
+
+#zoom_zone #f2 { left: 950px; }
+#zoom_zone #f3 { left:1130px; }
+#zoom_zone #f4 { left:1310px; }
+
+#zoom_zone #t1, #zoom_zone #t2, #zoom_zone #t3, #zoom_zone #t4, #zoom_zone #t5, #zoom_zone #t6, #zoom_zone #t7, #zoom_zone #t8 {
+  position:absolute;
+  left:50px;
+  top:250px;
+  width:160px;
+  height:626px;
+  z-index:999999;
+}
+
+#zoom_zone #t2 { left: 230px; }
+#zoom_zone #t3 { left: 410px; }
+#zoom_zone #t4 { left: 590px; }
+#zoom_zone #t5 { left: 770px; }
+#zoom_zone #t6 { left: 950px; }
+#zoom_zone #t7 { left:1130px; }
+#zoom_zone #t8 { left:1310px; }

@@ -1,0 +1,338 @@
+body {
+  background:url(media/tapis.jpg) repeat;
+}
+
+#tapis {
+  width:100%;
+  height:100%;
+  transform-origin: 0 0;
+}
+.places { display:none; 
+.card_shape {
+  position:absolute;
+  width:160px;
+  height:236px;
+  transition:top ease 0.4s, left ease 0.4s, margin ease 0.4s;
+}
+
+.card_face {
+  background-image:url(media/cards.png);
+}
+
+.card_deck {
+  background:url(media/decks.png);
+  width:160px;
+  height:236px;
+}
+.D1 { 
+  background:url(media/cards.png);
+  background-position:0 0;
+}
+
+.D2 { 
+  background:url(media/cards.png);
+  background-position:0 -236px;
+}
+
+.D3 { 
+  background:url(media/cards.png);
+  background-position:0 -472px;
+}
+
+.D4 { 
+  background:url(media/cards.png);
+  background-position:0 -708px;
+}
+
+.D5 { 
+  background:url(media/cards.png);
+  background-position:-160px 0;
+}
+
+.D6 { 
+  background:url(media/cards.png);
+  background-position:-160px -236px;
+}
+
+.D7 {  
+  background:url(media/cards.png);
+  background-position:-160px -472px;
+}
+
+.D8 { 
+  background:url(media/cards.png);
+  background-position:-160px -708px;
+}
+
+.D9 { 
+  background:url(media/cards.png);
+  background-position:-320px 0;
+}
+
+.D10 { 
+  background:url(media/cards.png);
+  background-position:-320px -236px;
+}
+
+.DJ { 
+  background:url(media/cards.png);
+  background-position:-320px -472px;
+}
+
+.DK { 
+  background:url(media/cards.png);
+  background-position:-320px -708px;
+}
+
+.DQ { 
+  background:url(media/cards.png);
+  background-position:-480px 0;
+}
+
+.backD { 
+  background:url(media/cards.png);
+  background-position:-480px -236px;
+}
+
+.C1 { 
+  background:url(media/cards.png);
+  background-position:-480px -472px;
+}
+
+.C2 { 
+  background:url(media/cards.png);
+  background-position:-480px -708px;
+}
+
+.C3 { 
+  background:url(media/cards.png);
+  background-position:-640px 0;
+}
+
+.C4 { 
+  background:url(media/cards.png);
+  background-position:-640px -236px;
+}
+
+.C5 { 
+  background:url(media/cards.png);
+  background-position:-640px -472px;
+}
+
+.C6 { 
+  background:url(media/cards.png);
+  background-position:-640px -708px;
+}
+
+.C7 { 
+  background:url(media/cards.png);
+  background-position:-800px 0;
+}
+
+.C8 { 
+  background:url(media/cards.png);
+  background-position:-800px -236px;
+}
+
+.C9 { 
+  background:url(media/cards.png);
+  background-position:-800px -472px;
+}
+
+.C10 { 
+  background:url(media/cards.png);
+  background-position:-800px -708px;
+}
+
+.CJ { 
+  background:url(media/cards.png);
+  background-position:-960px 0;
+}
+
+.CK { 
+  background:url(media/cards.png);
+  background-position:-960px -236px;
+}
+
+.CQ { 
+  background:url(media/cards.png);
+  background-position:-960px -472px;
+}
+
+.backC { 
+  background:url(media/cards.png);
+  background-position:-960px -708px;
+}
+
+.H1 { 
+  background:url(media/cards.png);
+  background-position:-1120px 0;
+}
+
+.H2 { 
+  background:url(media/cards.png);
+  background-position:-1120px -236px;
+}
+
+.H3 { 
+  background:url(media/cards.png);
+  background-position:-1120px -472px;
+}
+
+.H4 { 
+  background:url(media/cards.png);
+  background-position:-1120px -708px;
+}
+
+.H5 { 
+  background:url(media/cards.png);
+  background-position:-1280px 0;
+}
+
+.H6 { 
+  background:url(media/cards.png);
+  background-position:-1280px -236px;
+}
+
+.H7 { 
+  background:url(media/cards.png);
+  background-position:-1280px -472px;
+}
+
+.H8 { 
+  background:url(media/cards.png);
+  background-position:-1280px -708px;
+}
+
+.H9 { 
+  background:url(media/cards.png);
+  background-position:-1440px 0;
+}
+
+.H10 { 
+  background:url(media/cards.png);
+  background-position:-1440px -236px;
+}
+
+.HJ { 
+  background:url(media/cards.png);
+  background-position:-1440px -472px;
+}
+
+.HK { 
+  background:url(media/cards.png);
+  background-position:-1440px -708px;
+}
+
+.HQ { 
+  background:url(media/cards.png);
+  background-position:-1600px 0;
+}
+
+.backH { 
+  background:url(media/cards.png);
+  background-position:-1600px -236px;
+}
+
+.S1 { 
+  background:url(media/cards.png);
+  background-position:-1600px -472px;
+}
+
+.S2 { 
+  background:url(media/cards.png);
+  background-position:-1600px -708px;
+}
+
+.S3 { 
+  background:url(media/cards.png);
+  background-position:-1760px 0;
+}
+
+.S4 { 
+  background:url(media/cards.png);
+  background-position:-1760px -236px;
+}
+
+.S5 { 
+  background:url(media/cards.png);
+  background-position:-1760px -472px;
+}
+
+.S6 { 
+  background:url(media/cards.png);
+  background-position:-1760px -708px;
+}
+
+.S7 { 
+  background:url(media/cards.png);
+  background-position:-1920px 0;
+}
+
+.S8 { 
+  background:url(media/cards.png);
+  background-position:-1920px -236px;
+}
+
+.S9 { 
+  background:url(media/cards.png);
+  background-position:-1920px -472px;
+}
+
+.S10 { 
+  background:url(media/cards.png);
+  background-position:-1920px -708px;
+}
+
+.SJ { 
+  background:url(media/cards.png);
+  background-position:-2080px 0;
+}
+
+.SK { 
+  background:url(media/cards.png);
+  background-position:-2080px -236px;
+}
+
+.SQ { 
+  background:url(media/cards.png);
+  background-position:-2080px -472px;
+}
+
+.backS { 
+  background:url(media/cards.png);
+  background-position:-2080px -708px;
+}
+
+.shad1 { 
+  background:url(media/cards.png);
+  background-position:-2240px 0;
+}
+
+.shad2 { 
+  background:url(media/cards.png);
+  background-position:-2240px -236px;
+}
+
+.star { 
+  background:url(media/cards.png);
+  background-position:-2240px -472px;
+}
+
+.restack { 
+  background:url(media/cards.png);
+  background-position:-2240px -708px;
+}
+
+.highlighted {
+  border-radius: 10px;
+  box-shadow:0 0 20px 10px #ffa;
+  transition:box-shadow 0.8s ease;
+}
+
+.raised {
+  box-shadow:0 0 10px rgba(0,0,0,1);
+  background-color:rgba(0,0,0,0.3);
+  margin-left:15px;
+  margin-top:15px;
+}
